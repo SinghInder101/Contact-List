@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-image: url('cool-background.png');
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+ul{
+    
+    list-style-type: none;
+    margin-left: none;
+    padding:0px;
+}
+p{
+    color:white;
+    
+
+    
+
+}
+li{
+    
+    
+   margin-bottom: 2px;
+   background-color: grey;
+   display:flex;
+    
+}
+.contacts-list-container{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    
+   
+   
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display: flex;
+    height: 33px;
+    width:400px;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    
+  
+
+    margin-right: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+.form{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+li:hover{
+    background-color: orange;
+}
+
+input{
+    margin-right: 1px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-color: thistle;
+    outline: none;
+}
+button{
+    background-color: grey;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+}
+.delete-button{
+    width:10%;
+    padding:3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.delete-button a{
+    color:white;
+    background-color: red;
+}

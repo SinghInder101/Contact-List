@@ -1,0 +1,16 @@
+{
+  "name": "contact_list",
+  "version": "1.0.0",
+  "description": "Basic contact List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Inder Bir Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}
